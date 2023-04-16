@@ -1,0 +1,56 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Silkscreen">
+
+<body>
+  <style>
+    .center {
+      text-align: center;
+      font-family: Silkscreen;
+      font: Silkscreen;
+      font-size: 100;
+    }
+
+    .centerp {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      size: 100px;
+    }
+
+    .sidep {
+      font-family: Arial, Helvetica, sans-serif;
+      font: Helvetica;
+      font-size: 30;
+    }
+
+    .sideleft {
+      text-align: left;
+    }
+  </style>
+
+
+  <h1 class="center">Ordinazioni</h1>
+  <p class="centerp">qui puoi ordinare i prodotti dall'azienda di Alessandro maionese e Alessio</p>
+  
+  <form action="db.php" method="get">
+  <input type="checkbox" id="prodotto" name="prodotto[]" value=" Origami" >
+  <label class="sidep" for="prodotto"> Origami </label><br>
+  <input type="checkbox" id="prodotto" name="prodotto[]" value=" Storie ">
+  <label class="sidep" for="prodotto"> Storie </label><br>
+  <input type="checkbox" id="prodotto" name="prodotto[]" value=" Aeroplanini di carta personalizzati ">
+  <label class="sidep" for="prodotto"> Aeroplanini di carta personalizzati </label><br>
+  <input type="checkbox" id="prodotto" name="prodotto[]" value=" Slime ">
+  <label class="sidep" for="prodotto"> Slime </label><br>
+Nome: <input type="text" name="name">
+<input type="submit" value="Submit">
+</form> 
+
+
+
+
+
+  </head>
+</body>
+
+</html>
